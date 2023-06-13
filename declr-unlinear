@@ -1,0 +1,6 @@
+where (i, j) {
+	reduce (k) {
+		C[i,j] = A[i,k] * B[k,j]
+	}
+    __unlinear__(128, heap_algo, target>num)
+}

@@ -1,0 +1,5 @@
+where (i, j) when (__natural__(E[i], F[j])) {
+	reduce (k) {
+		C[i,j] = A[i,k] * B[k,j]
+	}
+}
