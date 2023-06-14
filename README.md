@@ -11,7 +11,7 @@ for i in range(M):
       C[i,j] += A[i,k] * B[k,j]
 ```
 
-### [Xyz-selection](https://github.com/xxcisxxc/MMLT-GPU-release/tree/test/Xyz-selection)
+### [Xyz-selection](https://github.com/xxcisxxc/MMLT-GPU-release/tree/example/Xyz-selection)
 
 ```python
 for i in range(M):
@@ -22,7 +22,7 @@ for i in range(M):
     C[i,j] = accum if accum > thres else None 
 ```
 
-### [Xyz-aggregate](https://github.com/xxcisxxc/MMLT-GPU-release/tree/test/Xyz-aggregate)
+### [Xyz-aggregate](https://github.com/xxcisxxc/MMLT-GPU-release/tree/example/Xyz-aggregate)
 
 ```python
 for i in range(M):
@@ -33,7 +33,7 @@ for i in range(M):
     C[E[i],F[j]] += accum
 ```
 
-### [Xyz-heap](https://github.com/xxcisxxc/MMLT-GPU-release/tree/test/Xyz-heap)
+### [Xyz-heap](https://github.com/xxcisxxc/MMLT-GPU-release/tree/example/Xyz-heap)
 
 ```python
 for i in range(M):
