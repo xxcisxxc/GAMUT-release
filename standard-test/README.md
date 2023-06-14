@@ -1,2 +1,0 @@
-# MMLT-GPU
-MMLT-GPU
