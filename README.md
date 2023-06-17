@@ -1,12 +1,12 @@
-# MMLT-GPU-release
+# GAMUT-release
 
 ## Directories
 
-### [standard-test](https://github.com/xxcisxxc/MMLT-GPU-release/tree/test/standard-test)
+### [standard-test](https://github.com/xxcisxxc/GAMUT-release/tree/test/standard-test)
 
 Standard Matrix Multiplication Tests
 
-### [mmlts-test](https://github.com/xxcisxxc/MMLT-GPU-release/tree/test/mmlts-test)
+### [mmlts-test](https://github.com/xxcisxxc/GAMUT-release/tree/test/mmlts-test)
 
 Matrix Multiplication like Tasks Tests
 
