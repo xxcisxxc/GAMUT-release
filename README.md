@@ -1,8 +1,8 @@
-# MMLT-GPU-release
+# GAMUT-release
 
 ## Directories
 
-### [Xyz-standard](https://github.com/xxcisxxc/MMLT-GPU-release/tree/example/Xyz-standard)
+### [GAMUT-standard](https://github.com/xxcisxxc/GAMUT-release/tree/example/GAMUT-standard)
 
 ```python
 for i in range(M):
@@ -11,7 +11,7 @@ for i in range(M):
       C[i,j] += A[i,k] * B[k,j]
 ```
 
-### [Xyz-selection](https://github.com/xxcisxxc/MMLT-GPU-release/tree/example/Xyz-selection)
+### [GAMUT-selection](https://github.com/xxcisxxc/GAMUT-release/tree/example/GAMUT-selection)
 
 ```python
 for i in range(M):
@@ -22,7 +22,7 @@ for i in range(M):
     C[i,j] = accum if accum > thres else None 
 ```
 
-### [Xyz-aggregate](https://github.com/xxcisxxc/MMLT-GPU-release/tree/example/Xyz-aggregate)
+### [GAMUT-aggregate](https://github.com/xxcisxxc/GAMUT-release/tree/example/GAMUT-aggregate)
 
 ```python
 for i in range(M):
@@ -33,7 +33,7 @@ for i in range(M):
     C[E[i],F[j]] += accum
 ```
 
-### [Xyz-heap](https://github.com/xxcisxxc/MMLT-GPU-release/tree/example/Xyz-heap)
+### [GAMUT-heap](https://github.com/xxcisxxc/GAMUT-release/tree/example/GAMUT-heap)
 
 ```python
 for i in range(M):
