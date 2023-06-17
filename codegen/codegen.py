@@ -8,7 +8,7 @@ parser.add_argument(
     nargs="?",
     type=str,
     help="Path for the template files",
-    default="Xyz-template",
+    default="GAMUT-template",
     dest="template_dir",
 )
 parser.add_argument(
@@ -16,7 +16,7 @@ parser.add_argument(
     nargs="?",
     type=str,
     help="Path for the generated files",
-    default="Xyz-gen",
+    default="GAMUT-gen",
     dest="dest_dir",
 )
 parser.add_argument(

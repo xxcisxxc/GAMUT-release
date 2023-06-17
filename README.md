@@ -1,4 +1,4 @@
-# MMLT-GPU-release
+# GAMUT-release
 
 ## Setup
 
@@ -12,7 +12,7 @@ See `python codegen/codegen.py -h` for more details
 
 ## Run
 
-Copy Generated caller into `Xyz-gen/main.cu` and Initialize Arrays and Dimensions.
+Copy Generated caller into `GAMUT-gen/main.cu` and Initialize Arrays and Dimensions.
 
 ```
 make
