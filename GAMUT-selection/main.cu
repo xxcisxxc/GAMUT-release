@@ -76,6 +76,6 @@ int main()
 	std::cout << "Start Correctness\n";
 	int g = *G;
 	for (int i = 0; i < g; i++)
-		if (std::abs(C[OFFSET(i, j, P1)] - Q[OFFSET(i, j, P1)]) > 1e-3)
-			std::printf("(%d,)\ttarget: %.1f\tcompute: %.1f\n", i, Q[i], C[i]));
+		if (std::abs(C[i] - Q[i]) > 1e-3)
+			std::printf("(%d,)\ttarget: %.1f\tcompute: %.1f\n", i, Q[i], C[i]);
 }

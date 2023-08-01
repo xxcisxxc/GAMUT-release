@@ -29,6 +29,10 @@
  * @return void
  */
 /* @0: Input Macros */
+#define Num_Inputs 2
+#define Num_Inputs_Row 1
+#define Num_Inputs_Col 1
+#define Num_Inputs_Tot 0
 
 #define Type float
 

@@ -43,7 +43,7 @@ cudaError_t naive(float *a, float *b, float *c,
 
 int main()
 {
-	float *C, *A, *B;
+	float *C, *A, *B, *Q;
 	
 	AllocateMatrix(&C, M, N, false);
 	AllocateMatrix(&Q, M, N, false);
@@ -60,7 +60,7 @@ int main()
 			
 	std::cout << "Start Naive\n";
 	timer.start();
-	naive(A, B, Q);
+	naive(A, B, Q, M, N, D);
 	timer.stop_and_wait();
 	std::cout << "Time: " << timer.duration(1) << " ms\n";
 

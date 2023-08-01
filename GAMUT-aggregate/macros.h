@@ -30,6 +30,11 @@
  */
 /* @0: Input Macros */
 
+#define Num_Inputs 4
+#define Num_Inputs_Row 2
+#define Num_Inputs_Col 2
+#define Num_Inputs_Tot 0
+
 #define Type float
 
 #ifndef MMLT_DEVICE
