@@ -1,14 +1,10 @@
 cmake_minimum_required(VERSION 3.12.4 FATAL_ERROR)
 
-set(CMAKE_CUDA_COMPILER /usr/local/cuda-11.7/bin/nvcc)
 project(MMLT_GPU LANGUAGES CUDA CXX C)
 
 find_package(CUDA REQUIRED)
 include_directories("${CUDA_INCLUDE_DIRS}")
 set(CMAKE_CUDA_SEPARABLE_COMPILATION ON)
-
-#add_subdirectory(workkernel)
-#add_subdirectory(query2)
 
 set_source_files_properties(main.cc PROPERTIES LANGUAGE CUDA)
 

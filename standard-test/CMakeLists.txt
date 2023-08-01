@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.12.4 FATAL_ERROR)
 
-set(CMAKE_CUDA_COMPILER /usr/local/cuda-11.7/bin/nvcc)
 project(MMLT_GPU LANGUAGES CUDA CXX C)
+
+find_package(CUDA  REQUIRED)
+include_directories("${CUDA_INCLUDE_DIRS}")
 
 set(CUTLASS_ENABLE_HEADERS_ONLY ON CACHE BOOL "Enable only the header library" FORCE)
 set(CUTLASS_NVCC_ARCHS "75" CACHE STRING "The SM architectures requested." FORCE)
